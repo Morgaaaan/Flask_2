@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <!--導入Bootstrap的模組-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        
+        <title> Morgan的自學成果</title>
+    </head>
+    <body>
+        <!--導覽列-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">          
+          <div class="justify-content-center mx-auto px-4" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link h3" href="/">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h3" href="/list">作品列表</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h3" href="/about">關於</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+
+      <div class="container mx-auto py-2">
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" name="process" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="true">
+              製作歷程&心得
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" name="prompt" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+              創站動機
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" name="about-me" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">
+              關於我
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <!--關於我-->
+          <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h3><b>關於我:</b></h3>
+            <div class="col">
+              <img src="/static/myself.jpg" width="300" height="400">
+            </div>
+            <div class="col">
+              <h5>
+                <p><br/></p>
+                <p>發了瘋在高三學測前才重回學習程式、搞大企劃的學生</p>
+                <p>平平無奇的宅宅，對程式、電腦、遊戲抱有極大的興趣，喜歡動手做</p>
+                <p>對於完成事情的成就感頗有嗜好</p>
+                <p>該做的事都能盡力完成，但時常會壓deadline(bad)</p>
+                <p><br/></p>
+                <p>甘於平淡，遊俠型交友</p>
+              </h5>
+              <h4><b>事蹟:</b></h4>
+              <h5>
+                <p>除了多益第一次就考875分以外也沒什麼可以說的;</p>
+                <p>APCS學測前太忙了沒準備且沒報名到所以還沒有後續</p>
+              </h5>
+              <h6><span style="color: #999999;">(就說平平無奇了嘛)</span></h6>
+            </div>
+
+          </div>
+          <!--動機-->
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <h3><b>創站動機</b></h3>
+            <p><br/></p>
+            <h5>
+              <p>源於想展現我Python學習的成果</p>
+              <p>但現在想想以網頁來展現Python好像也挺奇怪的(?</p>
+              <p>當時決定時真的是一時興起</p>
+              <p>想說既然之前有學過html，何不把它拿出來用?</p>
+              <p>於是整個計劃就誕生了w</p>
+            </h5>
+            <h4><span style="color: #ff0000;"><strong>一方面是想在高中結束前做個大計畫，另一方面是想挑戰自己對於程式的能力</strong></span></h4>
+          </div>
+          <!--歷程&心得-->
+          <div class="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <h5>製作的過程可謂十分艱苦QQ，且聽我依時間娓娓道來，一方面也為本篇的心得</h5>
+            <p><br /><br /></p>
+            <h3><b>1.Html,JavaScript,CSS忘光光，善用工具是上策</b></h3>
+            <p><br/></p>
+            <h5>
+              <p>這件事老實說十分致命，對於要架網站這回事這三項基本不可或缺，要在我差不多快忘光的領域上重新學習屬實有些克難</p>
+              <p>於是在搜索了許多資料後，我終於找到了黑暗中的明燈--Bootstrap!</p>
+            </h5>
+              <h4><a href="https://getbootstrap.com/"><strong>Bootstrap</strong></a></h4>
+            <h5>
+              <p>Bootstrap提供了許多元件的模板(如首頁的字卡、作品列表的手風琴...)，讓我無需土炮各種css,style,animation就能輕鬆排出我想要的排版，雖然需要具備基本的除錯能力啦。</p>
+              <p>打個比方，在製作作品列表時遇到了按鈕沒對應到彈出視窗的問題</p>
+              <p>才發現原來要對應到id才能成功，不然會變成點下方的按鈕卻彈出上一個按鈕應該出現的東西的錯誤</p>
+              <img src="/static/example.jpg" width="800" height="400">
+              <p><h6>(框起來的地方需對應到)</h6></p>
+            </h5>
+            <p><br /><br /><br /></p>
+            <h3><b>2.網站上線問題的過程，更加確信了AI是我未來的目標</b></h3>
+            <p><br/></p>
+            <h5>
+              <p>網站架構稍微完整一點後，就要開始考慮網站上線的問題了</p>
+              <p>那時候選用Google Cloud Platform(GCP)為雲端主機時沒有想太多，去找資料後才發現大多數教學品質都參差不齊、中間許多缺漏和版本太舊的情形時常有</p>
+              <p>基於我沒有Linux指令和網站相關知識的情況下，我選擇求助於科技--ChatGPT</p>
+              <p>AI可謂是網站成功架設的一代功臣啊!</p>
+              <p>這或許也是為甚麼我希望朝向Machine Learning的方向前進的緣故:D</p>
+              <p><br/></p>
+              <p>可他總不是萬能的，還是有些問題困住我無法向前</p>
+              <p>就是防火牆...</p>
+              <p>在缺少GCP網路資源的狀況下我無法解決防火牆的問題，於是我轉而求助正在就讀資工系的表哥，並了解到了我需要打開程式監聽之port的防火牆</p>
+              <p>譬如我開在8000port，我就必須在GCP的網頁中建立允許8000port的規則(依此類推)</p>
+            </h5>
+            <p><br /><br /><br /></p>
+            <h3><b>3.魔鬼藏在細節裡，注意細節，避免損失</b></h3>
+            <p><br/></p>
+            <h5>
+              <p>開啟8000port後，我和表哥決定採取防火牆的第三方套件&rdquo;ufw&rdquo;</p>
+              <p>安裝完成後一樣先用ufw的指令允許8000port後，再打開ufw:</p>
+              <code>sudo ufw allow 8000/tcp</code>
+              <br/>
+              <code>sudo ufw enable</code>
+              <p><br/></p>
+              <p>在測試成功後，就興奮地去吃晚餐了</p>
+              <p>結果...接下來不管怎麼連都連不進SSH了</p>
+              <p><br/></p>
+              <p>在網路上搜尋了一會兒後，總算有比較詳細的解法了</p>
+              <p>追根究底的原因只有一個:忘了輸入一行程式碼</p>
+              <code>sudo ufw allow ssh</code>
+              <p>......</p>
+              <p>因為少這行程式碼，我必須去編輯這台VM:</p>
+              <p>啟用序列控制台、設定後臺帳密......等</p>
+              <p><a href="https://blog.cloud-ace.tw/infrastructure/vm/ssh-connect-failed-solution/">GCP 虛擬主機連線失敗救援教學―第三方軟體阻斷 SSH 連線</a></p>
+              <p>嘗試後卡在了帳密過不去</p>
+              <p>再三考量後決定打掉重來</p>
+              <p>幸好資料並不多才能這樣做</p>
+              <p>也算順便給了我梳理整個流程的機會......</p>
+            </h5>
+            <p><br /><br /><br /></p>
+            <h3><b>4.從失敗裡學習，成就最後的成功的果實</b></h3>
+            <p><br/></p>
+            <h5>
+              <p>在經歷了無數報錯和修復中，最後一次的意外讓我能從頭梳理整個過程</p>
+              <p>我統整了建立VM後應該要設定的、輸入的指令</p>
+              <p>在最後的測試中，快速且順利的成功建立起這個網站</p>
+              <p>那種成就感到現在還難以忘懷、難以言喻，如同兩個月陰霾後的曙光</p>
+              <p>告訴著我這一路上的努力就是為了此時此刻</p>
+              <p>對於他人可能只是個陽春的網站</p>
+              <p>但對我來說這是我寫程式路上的里程碑</p>
+              <p><br /><br /></p>
+              <p>最後的最後</p>
+              <p>感謝一路上幫助我的所有文章作者、我的表哥、和所有在寫軟體工程的前人們</p>
+              <p>讓我實實在在地體會到甚麼叫做「前人種樹，後人乘涼」</p>
+              <p>沒有實用便捷的工具和程式語法，我就無法如此快速地建立起我的網站</p>
+              <p>謹此</p>
+            </h5>
+            <p><br /><br /><br /><br /></p>
+            <h5>
+              <b>
+              <p>&gt;&gt;後記</p>
+              <p>原本文案不打算寫得那麼認真的，一個不小心就陷進去了w</p>
+              <p>話說手機排版的部分我真的搞不定r，之後再想辦法改善一下好了</p>
+              <p>之後可能鑽研一下要如何快速更新網站，不然每次都要重新clone檔案屬實有些麻煩</p>
+              </b>
+            </h5>
+
+
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      
+    </body>
+</html>
